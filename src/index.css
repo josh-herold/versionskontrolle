@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+
+  --color-background: #050505;
+  --color-surface: #0a0a0a;
+  --color-surface-bright: #111111;
+  --color-on-background: #f0f0f0;
+  --color-primary: #a855f7;
+  --color-primary-hover: #9333ea;
+  --color-outline: rgba(255, 255, 255, 0.05);
+  --color-outline-variant: rgba(255, 255, 255, 0.1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-on-background antialiased selection:bg-primary/30;
+    background-image: url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E');
+    background-blend-mode: overlay;
+  }
+}
+
+@layer components {
+  .art-card {
+    @apply bg-surface border border-outline rounded-2xl transition-all duration-300;
+  }
+  
+  .mesh-gradient {
+    background-color: #050505;
+    background-image: 
+        radial-gradient(at 0% 0%, rgba(168, 85, 247, 0.1) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(59, 130, 246, 0.1) 0px, transparent 50%);
+  }
+
+  .text-label {
+    @apply text-[10px] font-bold tracking-[0.2em] uppercase text-primary;
+  }
+  
+  .text-title-huge {
+    @apply text-[clamp(4rem,10vw,140px)] leading-[0.8] font-black tracking-tighter;
+  }
+}
