@@ -4,7 +4,7 @@
 
 
 
-**Prerequisites:**  Node.js
+Übung: erstelle einen neuen branch
 
 
 1. Install dependencies:
