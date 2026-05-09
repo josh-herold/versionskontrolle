@@ -6,8 +6,6 @@ Name: Janosch Herold
 
 Repository-Status: Public
 
-PR-Link: [Hier Link zum Pull Request bei edlich/education einfügen]
-
 1. Repository & Ersteinrichtung
 
 Das Repository wurde initialisiert und das Projekt erfolgreich hochgeladen.
