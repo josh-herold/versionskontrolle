@@ -50,7 +50,7 @@ Um die Arbeit mit Branches zu demonstrieren, wurden zwei ähnliche Branches erst
 
    PR erstellt: [edlich/education#1](https://github.com/edlich/education/pull/1)
 
-Beschreibung: Eine Sammlung deutscher Informatiker-Witze wurde zum `students/`-Verzeichnis hinzugefügt.
+Beschreibung: Informatiker-Witze wurde zum `students/`-Verzeichnis hinzugefügt.
 
   Datei: `students/it-jokes.md`
 
