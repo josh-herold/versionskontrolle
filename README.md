@@ -46,6 +46,13 @@ Um die Arbeit mit Branches zu demonstrieren, wurden zwei ähnliche Branches erst
 
     Ablauf: Wechsel zwischen den Branches (git checkout), Änderungen am Inhalt und abschließendes Zusammenführen (git merge) in den main-Branch.
 
+5. Pull Request auf edlich/education
+
+   PR erstellt: [edlich/education#1](https://github.com/edlich/education/pull/1)
+
+Beschreibung: Eine Sammlung deutscher Informatiker-Witze wurde zum `students/`-Verzeichnis hinzugefügt.
+
+  Datei: `students/it-jokes.md`
 
 
 
